@@ -28,7 +28,9 @@ This repository demonstrates how a load balancer (NGINX) is configured to distri
 
 ## ⚙️ Architecture Overview
 
-This project deploys a simple web server architecture where:
+This project deploys a simple web server architecture as displayed below:
+
+![Project Architecture Diagram](screenshots/projectArchBlack.png)
 
 - A **load balancer (NGINX)** is exposed on `http://localhost:8080` on the host machine.
 - NGINX listens on port `80` **inside the container**, as configured in `nginx.conf`.
